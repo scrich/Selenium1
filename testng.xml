@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test suite">
+	<test name="Test tools">
+	<classes>
+		<class name="choirTestNG.checkEventsTable" /><class name="choirTestNG.checkTablesViewAbsence"></class>
+	</classes>
+	</test>
+</suite>
