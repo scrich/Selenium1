@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test suite">
+	<test name="Test tools">
+	
+	<parameter name="applicationNumber" value="bh201800771" />
+	<parameter name="expectedStatus" value="Received" />
+	
+	<classes>
+		<class name="testPlanningReg.TestPlanningAppStatusParams" />
+	</classes>
+	</test>
+</suite>
