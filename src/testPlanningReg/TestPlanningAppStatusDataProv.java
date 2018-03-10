@@ -60,6 +60,12 @@ public class TestPlanningAppStatusDataProv {
 	  String actualStatus = statusFieldItem.getText();
 	  System.out.println("Actual status is "+actualStatus);
 	 
+	  String betterActualStatus = ((driver.findElement(By.className("field-name-field-application-status")))
+			  .findElement(By.className("field-item")))
+			  .getText();
+	  
+	  System.out.println("better actual status is " +betterActualStatus);
+	  
 	  Assert.assertEquals(actualStatus, expectedStatus);
 	 
 	  System.out.println("TEST TestPlanningAppStatus END");

@@ -1,2 +1,5 @@
-
+# Test results
 test-output/
+
+# Compiled class file
+*.class
